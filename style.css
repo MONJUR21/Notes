@@ -5,6 +5,7 @@
 body{
     background-color: rgb(112, 112, 165);
 }
+
 nav ul{
     color: rgb(66, 25, 104);
     background-color: rgb(6, 50, 50);
@@ -15,7 +16,10 @@ nav ul{
     padding: 15px;
     align-items: center;
 }
-
+header{
+    position: sticky;
+    top: 0;
+}
 .box1{
     height:60vh;
     background-color: rgb(3, 6, 0);
@@ -48,6 +52,8 @@ a{
     text-decoration: none;
     color: rgb(255, 0, 8);
     font-size: 20px;
+    
+
 }
 
 a:visited{
@@ -67,4 +73,19 @@ footer{
     align-items: center;
     height: 10vh;
     background-color: rgb(13, 4, 47);
+}
+
+@keyframes anim{
+    from{
+        opacity: 0.5;
+        background-color: aqua;
+    }
+    to{
+        opacity: 1;
+        box-shadow: 10px 10px 5px lightblue;
+        transform: scale(1.2);
+    }
+}
+.box{
+    overflow: auto;
 }
