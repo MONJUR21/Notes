@@ -65,7 +65,8 @@ a:visited{
 
 a:hover{
     font-size: 1.2rem;
-    color: rgb(111, 130, 47);
+    color: rgb(186, 136, 190);
+    box-shadow: 5px 5px 30px rgb(50, 120, 143);
 }
 footer{
     display: flex;
